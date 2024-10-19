@@ -1,0 +1,38 @@
+/* adding this to avoid footer overlay */
+main {
+    height:  auto !important;
+}
+
+/* Styling main section */
+.gmMainSection{
+    background-color: rgb(42,9,95);
+    color: white; 
+}
+
+/* Styling the game modes list container */
+.container{
+    background-color: #fbefff;
+    color: black;
+}
+
+/* Styling paragraphs of the game modes list */
+.gmListPara{
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Styling paragraphs of the main section */
+.gmMainPara{
+    word-break: break-word;
+    overflow-wrap: break-word; 
+}
+
+/* Styling the game modes images */
+.gmListImg{
+    width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
