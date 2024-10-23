@@ -1,0 +1,4 @@
+/* adding this to avoid footer overlay */
+main {
+    height:  auto !important;
+}
