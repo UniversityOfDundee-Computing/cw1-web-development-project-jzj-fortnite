@@ -27,12 +27,22 @@ main {
     overflow-wrap: break-word; 
 }
 
-/* Styling the game modes images */
+/* Adding gradient border to the list images */
 .gmListImg{
+    background: linear-gradient(45deg, #ddb1ff, #3d02bd, #1295e1, #e25bff);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 7px;
+}
+
+/* Styling the game modes images */
+.gmListImg img{
     width: 100%; 
     height: auto; 
     max-height: 100%; 
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 8px; 
+    display: block;
 }
 
