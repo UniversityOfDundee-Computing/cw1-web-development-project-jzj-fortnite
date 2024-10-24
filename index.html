@@ -12,9 +12,9 @@
     />
     <link rel="stylesheet" href="stylesheets/masterstyle.css" />
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid bg-body">
     <!------------------------------------------------------ HEADER ------------------------------------------>
-    <header class="navbar_color">
+    <header class="navbarClass">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html" id="logo_anchor">
@@ -60,7 +60,11 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="webpages/developmentHistory.html">Development History</a>
+                    <a
+                      class="dropdown-item"
+                      href="webpages/developmentHistory.html"
+                      >Development History</a
+                    >
                   </li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider" /></li>
@@ -82,16 +86,325 @@
     </header>
     <!----------------------------------------------------- MAIN SECTION -------------------------------------->
     <main>
-      <h1>Fortnite website</h1>
-      <p>Page under construction...</p>
-      <br />
-      <button type="button" class="btn btn-primary">
-        <a href="history.html" class="text-white">History page</a>
-      </button>
+      <section id="hero-banner">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <!-- Carousel: Navigation Bottom Indicators/Buttons -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <!-- Carousel: Carousel Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/fortnite_savetheworld.png"
+                class="d-block w-100 h-100 carousel_imgs"
+                alt="image of fortnite save the world"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/fortnite_battleRoyle.png"
+                class="d-block w-100 h-100 carousel_imgs"
+                alt="image of fortnite - battle of royale"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/fortnite_legoworld.png"
+                class="d-block w-100 h-100 carousel_imgs"
+                alt="image of fortnite - Lego world"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/fortnite_rocketRacing"
+                class="d-block w-100 h-100 carousel_imgs"
+                alt="image of fortnite - Rocket Racing"
+              />
+            </div>
+          </div>
+          <!-- Carousel: Navigation Side Buttons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="introduction" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-9 order-2 order-lg-1">
+            <p class="intro_col_1">
+              Fortnite is an
+              <a href="https://en.wikipedia.org/wiki/Online_game"
+                >online video game</a
+              >
+              and game platform developed by
+              <a href="https://en.wikipedia.org/wiki/Epic_Games">Epic Games</a>
+              and released in 2017. It is available in six distinct game mode
+              versions that otherwise share the same general gameplay and game
+              engine:
+              <a href="https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"
+                >Fortnite Battle Royale</a
+              >, a free-to-play
+              <a href="https://en.wikipedia.org/wiki/Battle_royale_game"
+                >battle royale game</a
+              >
+              in which up to 100 players fight to be the last person standing;
+              <a href="https://en.wikipedia.org/wiki/Fortnite:_Save_the_World"
+                >Fortnite: Save the World</a
+              >, a cooperative hybrid
+              <a href="https://en.wikipedia.org/wiki/Tower_defense"
+                >tower defense</a
+              >-<a href="https://en.wikipedia.org/wiki/Shooter_game">shooter</a>
+              and
+              <a href="https://en.wikipedia.org/wiki/Survival_game">survival</a>
+              game in which up to four players fight off
+              <a href="https://en.wikipedia.org/wiki/Zombie">zombie</a>-like
+              creatures and defend objects with traps and fortifications they
+              can build;
+              <a href="https://en.wikipedia.org/wiki/Fortnite_Creative"
+                >Fortnite Creative</a
+              >, in which players are given complete freedom to create worlds
+              and battle arenas;
+              <a href="https://en.wikipedia.org/wiki/Lego_Fortnite"
+                >Lego Fortnite</a
+              >, an
+              <a href="https://en.wikipedia.org/wiki/Open_world">open world</a>
+              survival game;
+              <a href="https://en.wikipedia.org/wiki/Rocket_Racing"
+                >Rocket Racing</a
+              >, a
+              <a href="https://en.wikipedia.org/wiki/Racing_game">racing game</a
+              >; and
+              <a href="https://en.wikipedia.org/wiki/Fortnite_Festival"
+                >Fortnite Festival</a
+              >, a
+              <a href="https://en.wikipedia.org/wiki/Rhythm_game">rhythm</a>
+              game.
+            </p>
+
+            <p class="intro_col_2">
+              Save the World and Battle Royale were released in 2017 as
+              <a href="https://en.wikipedia.org/wiki/Early_access"
+                >early access</a
+              >
+              titles, while Creative was released on December 6, 2018. While the
+              Save the World and Creative versions have been successful for Epic
+              Games, Fortnite Battle Royale in particular became an overwhelming
+              success and a
+              <a href="https://en.wikipedia.org/wiki/Culture">cultural</a>
+              phenomenon, drawing more than 125 million players in less than a
+              year, earning hundreds of millions of dollars per month. Fortnite
+              as a whole generated $9 billion in gross revenue up until December
+              2019, and it has been listed among the
+              <a
+                href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best"
+                >greatest games of all time</a
+              >.
+            </p>
+
+            <p class="intro_col_3">
+              Save the World is available for
+              <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>,
+              <a href="https://en.wikipedia.org/wiki/PlayStation_4"
+                >PlayStation 4</a
+              >, Windows, and
+              <a href="https://en.wikipedia.org/wiki/Xbox_One">Xbox One</a>,
+              while Battle Royale and Creative were released for all those
+              platforms as well as
+              <a href="https://en.wikipedia.org/wiki/Android_(operating_system)"
+                >Android</a
+              >
+              and <a href="https://en.wikipedia.org/wiki/IOS">iOS</a> devices
+              and
+              <a href="https://en.wikipedia.org/wiki/Nintendo_Switch"
+                >Nintendo Switch</a
+              >. The game also launched with the release of the ninth-generation
+              <a href="https://en.wikipedia.org/wiki/PlayStation_5"
+                >PlayStation 5</a
+              >
+              and
+              <a href="https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S"
+                >Xbox Series X/S</a
+              >
+              consoles. Furthermore, Lego Fortnite, Rocket Racing and Fortnite
+              Festival are available on all platforms.
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-3 order-1 order-lg-2">
+            <aside class="aside_class">
+              <div class="card mainpage_card">
+                <img
+                  src="images/fortniteLogo.svg"
+                  alt="fornite_logo"
+                  class="aside_box_logo"
+                />
+                <div class="card-body card_internal">
+                  <div class="container">
+                    <!-- Genre Row -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <a
+                          href="https://en.wikipedia.org/wiki/Video_game_genre"
+                          class="bold_700"
+                          >Genre(s)</a
+                        >
+                      </div>
+                      <div class="col">
+                        <a href="https://en.wikipedia.org/wiki/Survival_mode"
+                          >Survival</a
+                        >
+                        <a
+                          href="https://en.wikipedia.org/wiki/Battle_royale_game"
+                          >Battle Royale</a
+                        >
+                        <a href="https://en.wikipedia.org/wiki/Sandbox_game"
+                          >Sandbox</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Developers -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <a
+                          href="https://en.wikipedia.org/wiki/Video_game_developer"
+                          class="bold_700"
+                          >Developer(s)</a
+                        >
+                      </div>
+                      <div class="col">
+                        <a href="https://en.wikipedia.org/wiki/Epic_Games"
+                          >Epic Games</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Publishers -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <a
+                          href="https://en.wikipedia.org/wiki/Video_game_publisher"
+                          class="bold_700"
+                          >Publisher(s)</a
+                        >
+                      </div>
+                      <div class="col">
+                        <a href="https://en.wikipedia.org/wiki/Epic_Games"
+                          >Epic Games</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Platform(s) -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <p class="bold_700">Platform(s)</p>
+                      </div>
+                      <div class="col">
+                        <a href="https://en.wikipedia.org/wiki/MacOS"> macOS</a>
+                        <a
+                          href="https://en.wikipedia.org/wiki/Microsoft_Windows"
+                          >Windows</a
+                        >
+                        <a href="https://en.wikipedia.org/wiki/PlayStation_4"
+                          >PlayStation 4</a
+                        >
+                        <a href="https://en.wikipedia.org/wiki/Xbox_One"
+                          >Xbox One</a
+                        >
+                        <a href="https://en.wikipedia.org/wiki/IOS">iOS</a>
+                        <a href="https://en.wikipedia.org/wiki/Nintendo_Switch"
+                          >Nintendo Switch</a
+                        >
+                        <a
+                          href="https://en.wikipedia.org/wiki/Android_(operating_system)"
+                          >Android</a
+                        >
+                        <a
+                          href="https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S"
+                          >Xbox Series X/S</a
+                        >
+                        <a href="https://en.wikipedia.org/wiki/PlayStation_5"
+                          >PlayStation 5</a
+                        >
+                      </div>
+                    </div>
+                    <!-- First Release -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <p class="bold_700">First release</p>
+                      </div>
+                      <div class="col">
+                        <a
+                          href="https://en.wikipedia.org/wiki/Fortnite:_Save_the_World"
+                          >Fortnite: Save the World</a
+                        >
+                        <p>July 25, 2017 (early access)</p>
+                      </div>
+                    </div>
+                    <!-- Latest Release -->
+                    <div class="row card_links">
+                      <div class="col">
+                        <p class="bold_700">Latest release</p>
+                      </div>
+                      <div class="col">
+                        <a href="https://en.wikipedia.org/wiki/Fortnite_Reload">
+                          Fortnite Reload</a
+                        >
+                        <p>June 25, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!------------------------------------------------------ FOOTER ------------------------------------------>
-    <footer>The sample footer</footer>
+    <footer>
+      <div class="bold_700">All rights reserved &copy; 2024</div>
+    </footer>
   </body>
 
   <script
