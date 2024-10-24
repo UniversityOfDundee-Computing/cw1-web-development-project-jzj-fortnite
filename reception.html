@@ -1,108 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fortnite | Reception</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="stylesheets/masterstyle.css" />
-  </head>
-  <body class="container-fluid">
-    <!------------------------------------------------------ HEADER ------------------------------------------>
-    <header class="navbar_color">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html" id="logo_anchor">
-            <img
-              src="images/fortniteLogo.svg"
-              alt="fortnight-logo"
-              width="180px"
-              height="auto"
+    <head>
+        <!-- Meta tags for character encoding and responsive viewport -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fortnite | Reception</title>
+        <!-- External CSS Dependencies -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
             />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="gameModes.html"
-                  >Game Modes</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="history.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Development History
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="history.html">Action</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reception.html">Reception</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reference.html">References</a>
-              </li>
-            </ul>
-          </div>
+        <link rel="stylesheet" href="stylesheets/masterstyle.css" />
+    </head>
+    <body class="container-fluid">
+        <!-- Navigation Header -->
+        <header class="navbar_color">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- Logo and Brand -->
+                    <a class="navbar-brand" href="/index.html" id="logo_anchor">
+                    <img
+                        src="images/fortniteLogo.svg"
+                        alt="fortnight-logo"
+                        width="180px"
+                        height="auto"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html"
+                                    >HOME</a
+                                    >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="gameModes.html"
+                                    >GAME MODES</a
+                                    >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="history.html"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >
+                                DEVELOPMENT HISTORY
+                                </a>
+                                <!-- START: Please check this drop-down menu. -->
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="history.html">Action</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                                <!-- END: Please check this drop-down menu. -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reception.html">RECEPTION</a>
+                            </li>
+                            <!-- Added awards page; to be added in every other file -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="awards.html">AWARDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reference.html">REFERENCES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Main content with side navigation -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side Navigation -->
+                <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                    <div class="position-sticky pt-3">
+                        <h4 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            Related Links
+                        </h4>
+                        <div class="nav flex-column">
+                            <a href="https://en.wikipedia.org/wiki/Fortnite:_Save_the_World#Reception" class="nav-link" target="_blank">
+                                <img src="./images/reception/fortnite_save_the_world.jpg" alt="Fortnite: Save the World § Reception" class="img-fluid mb-2">
+                                <p>Fortnite: Save the World § Reception</p>
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/Fortnite_Battle_Royale#Reception_and_legacy" class="nav-link" target="_blank">
+                                <img src="./images/reception/fortnite_battle_royale.jpg" alt="Fortnite Battle Royale § Reception and Legacy" class="img-fluid mb-2">
+                                <p>Fortnite Battle Royale § Reception and Legacy</p>
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/Fortnite_Creative#Reception" class="nav-link" target="_blank">
+                                <img src="./images/reception/fortnite_creative.png" alt="Fortnite Creative § Reception" class="img-fluid mb-2">
+                                <p>Fortnite Creative § Reception</p>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <main class="container mt-4">
+                    <h1 class="mb-4">Fortnite Reception</h1>
+                    <section class="mb-5">
+                        <p>The <em>Save the World</em> mode achieved over one million players by August 2017, just prior to the release of <em>Battle Royale</em>.</p>
+                        <p><em>Fortnite Battle Royale</em> became a significant financial success for Epic Games, 
+                            leading them to separate the teams between <em>Save the World</em> and <em>Battle Royale</em> to provide better support for both modes. 
+                            Within two weeks of release, over 10 million players had played the mode, and by June 2018, just after the Nintendo Switch release, 
+                            it had reached 125 million players. Revenue from <em>Fortnite Battle Royale</em> during the first half of 2018 had been estimated 
+                            in the hundreds of millions of dollars per month, with total 2018 revenue estimated at $2.4 billion by analysis firm SuperData Research. 
+                            Total revenue for <em>Fortnite</em> reached more than $9 billion by the end of 2019.
+                        </p>
+                        <p><em>Fortnite Battle Royale</em> has also become a <a href="https://en.wikipedia.org/wiki/Culture" target="_blank">cultural phenomenon</a>, 
+                            with several celebrities reporting they play the game and athletes using <em>Fortnite</em> 
+                            <a href="https://en.wikipedia.org/wiki/Emote" target="_blank">emotes</a> as victory celebrations. 
+                            A notable <a href="https://en.wikipedia.org/wiki/Video_game_livestreaming" target="_blank">streaming</a> event in March 2018, 
+                            with streamer <a href="https://en.wikipedia.org/wiki/Ninja_(gamer)" target="_blank">Ninja</a> playing <em>Fortnite Battle Royale</em> 
+                            alongside <a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Drake</a>, 
+                            <a href="https://en.wikipedia.org/wiki/Travis_Scott" target="_blank">Travis Scott</a>, 
+                            <a href="https://en.wikipedia.org/wiki/Kim_Dotcom" target="_blank">Kim DotCom</a>, 
+                            and <a href="https://en.wikipedia.org/wiki/Pittsburgh_Steelers" target="_blank">Pittsburgh Steelers</a> wide receiver 
+                            <a href="https://en.wikipedia.org/wiki/JuJu_Smith-Schuster" target="_blank">JuJu Smith-Schuster</a>, 
+                            broke viewership records for <a href="https://en.wikipedia.org/wiki/Twitch_(service)" target="_blank">Twitch</a> to date 
+                            and led to Epic arranging a <em>Fortnite Battle Royale</em> <a href="https://en.wikipedia.org/wiki/Pro%E2%80%93am" target="_blank">pro-am</a> 
+                            with 50 pairs of streamers and professional players matched with celebrities at 
+                            <a href="https://en.wikipedia.org/wiki/E3_2018" target="_blank">E3 2018</a> in June 2018. 
+                            Epic Games has developed organised <a href="https://en.wikipedia.org/wiki/Esports" target="_blank">esports</a> 
+                            competitions around <em>Fortnite Battle Royale</em>, such as the inaugural US $30 million 
+                            <a href="https://en.wikipedia.org/wiki/Fortnite_World_Cup" target="_blank">Fortnite World Cup</a> 
+                            tournament that took place in July 2019 and the Fortnite Championship Series (FNCS), the latter of which would be organised by 
+                            Epic Games in 2020 and 2021 before being organised by Blast ApS from 2022 onwards.
+                        </p>
+                        <p>See also: <a href="https://en.wikipedia.org/wiki/Fortnite_Battle_Royale#Parental_concerns" target="_blank"><em>Fortnite Battle Royale § Parental concerns</em></a></p>
+                        <p>There has also been growing concern over <em>Fortnite Battle Royale</em>'s draw toward young children, 
+                            emphasised with the release of the mobile client. Parents and teachers had expressed concern that students are being distracted 
+                            and drawn away from school work due to playing <em>Fortnite</em>. Concerns have also been raised about the impact that playing a game 
+                            involving repeated depictions of gun violence may have on young children.
+                        </p>
+                    </section>
+                    <!-- Navigation Button -->
+                    <button type="button" class="btn btn-primary mb-4">
+                      <a href="index.html" class="text-white text-decoration-none">BACK TO HOME PAGE</a>
+                    </button>
+                </main>
+            </div>
         </div>
-      </nav>
-    </header>
-    <!----------------------------------------------------- MAIN SECTION -------------------------------------->
-    <!-- Please add your code here within the main tags -->
-    <main>
-      <h1>Fortnite website - Reception page</h1>
-      <p>Page under construction...</p>
-      <br />
-      <button type="button" class="btn btn-primary">
-        <a href="index.html" class="text-white">Back to home page</a>
-      </button>
-    </main>
-
-    <!------------------------------------------------------ FOOTER ------------------------------------------>
-    <footer>The sample footer</footer>
-  </body>
-
-  <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"
-  ></script>
+        <footer>FOOTER</footer>
+    </body>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+        ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"
+        ></script>
 </html>
