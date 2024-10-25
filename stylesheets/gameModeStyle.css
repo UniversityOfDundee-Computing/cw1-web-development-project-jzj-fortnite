@@ -1,94 +1,104 @@
 /* adding this to avoid footer overlay */
 main {
-    height:  auto !important;
+  height: auto !important;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 /* Styling main section */
-.gmMainSection{
-    background-color: rgb(42,9,95);
-    color: white; 
+.gmMainSection {
+  background-color: rgb(42, 9, 95);
+  color: white;
 }
 
 /* Styling the game modes list container */
-.container{
-    background-color: #fbefff;
-    color: black;
+.container {
+  background-color: #fbefff;
+  color: black;
 }
 
 /* Styling paragraphs of the game modes list */
-.gmListPara{
-    word-break: break-word;
-    overflow-wrap: break-word;
+.gmListPara {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Styling paragraphs of the main section */
-.gmMainPara{
-    word-break: break-word;
-    overflow-wrap: break-word; 
+.gmMainPara {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Adding gradient border to the list images */
-.gmListImg{
-    background: linear-gradient(45deg, #ddb1ff, #3d02bd, #1295e1, #e25bff);
-    border-radius: 10px;
-    display: inline-block;
-    padding: 7px;
+.imgContainer {
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.gmListImg {
+  background: linear-gradient(45deg, #ddb1ff, #3d02bd, #1295e1, #e25bff);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 7px;
+  width: 100%;
 }
 
 /* Styling the game modes images */
-.gmListImg img{
-    width: 100%; 
-    height: auto; 
-    max-height: 100%; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px; 
-    display: block;
+.gmListImg img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: block;
 }
 
 /* Card effects added here */
-.card{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-.card:hover{
-    transform: scale(1.05); 
-    box-shadow: 0 10px 16px rgba(226,91,255,0.7); 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 16px rgba(226, 91, 255, 0.7);
 }
 
 html {
-    scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 /* Animations */
 .slide-in-left {
-    opacity: 0;
-    animation: slideInLeft 1s ease-out forwards;
+  opacity: 0;
+  animation: slideInLeft 1s ease-out forwards;
 }
 
 @keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .slide-in-bottom {
-    opacity: 0;
-    animation: slideInBottom 1s ease-out forwards;
+  opacity: 0;
+  animation: slideInBottom 1s ease-out forwards;
 }
 
 @keyframes slideInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
