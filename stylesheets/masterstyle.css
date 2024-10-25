@@ -141,16 +141,6 @@ main {
   border-bottom: 2px solid #3d02bd;
   transition: all 0.5s;
 }
-/* 
-.nav-link:hover:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2rem;
-  left: 0;
-  top: 3rem;
-  color: red;
-} */
 
 #logo_anchor {
   position: absolute;
@@ -158,10 +148,42 @@ main {
   background: #ffff24;
   top: 0;
   left: 1rem;
+  z-index: 25;
 }
 
 .navbar-toggler {
   margin-left: auto;
+}
+
+.navbar-collapse {
+  background: #e25bff;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-collapse {
+    background: #e25bff;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+  }
+}
+
+.dropdown-menu.show {
+  background: #e25bff;
+  color: #ffffff;
+}
+
+.dropdown-menu.show a {
+  background: #e25bff;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown-menu.show {
+    border: none;
+  }
 }
 
 /* ------------------- Carousel Styles ------------------ */
