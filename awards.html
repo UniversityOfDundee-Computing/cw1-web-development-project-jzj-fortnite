@@ -13,32 +13,86 @@
         <link rel="stylesheet" href="./stylesheets/masterstyle.css">
         <link rel="stylesheet" href="./stylesheets/awards.css">
     </head>
-    <body class="container-fluid bg-body">
+    
+    <body class="container-fluid bg-body">    
         <!-- Navigation Header -->
         <header class="navbarClass">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <!-- Logo/Brand -->
                     <a class="navbar-brand" href="/index.html" id="logo_anchor">
-                    <img src="images/fortniteLogo.svg" alt="fortnight-logo" width="180" height="50" />
+                    <img
+                        src="images/fortniteLogo.svg"
+                        alt="fortnight-logo"
+                        width="180"
+                        height="50"
+                        />
                     </a>
                     <!-- Mobile Navigation Toggle -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Navigation Menu -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" aria-current="page" href="index.html"
+                                    >Home</a
+                                    >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="gameModes.html">Game Modes</a>
+                                <a class="nav-link" aria-current="page" href="gameModes.html"
+                                    >Game Modes</a
+                                    >
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="developmentHistory.html">Development History</a>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="developmentHistory.html"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >
+                                Development History
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="developmentHistory.html"
+                                            >Development History</a
+                                            >
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="developmentHistory.html#FSW"
+                                            >Fortnite: Save the World</a
+                                            >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="developmentHistory.html#FBR"
+                                            >Fortnite Battle Royale</a
+                                            >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="developmentHistory.html#FC"
+                                            >Fortnite Creative</a
+                                            >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="developmentHistory.html#FE"
+                                            >Fortnite Experiences</a
+                                            >
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="reception.html">Reception</a>
@@ -51,6 +105,7 @@
                 </div>
             </nav>
         </header>
+
         <!-- Main Content -->
         <main class="awards-container">
             <!-- Header Section -->
@@ -67,6 +122,7 @@
                     it for "Best Nintendo Switch Game," "Best Mobile Game," and "Best Action Game."
                 </div>
             </section>
+
             <!-- Awards Table Section -->
             <section class="awards-table-section animate__animated animate__fadeIn animate__delay-2s">
                 <div class="table-responsive">
@@ -509,10 +565,12 @@
                 </div>
             </section>
         </main>
+
         <!-- Footer -->
         <footer class="bold_700">
             All rights reserved. &copy; 2024
         </footer>
+
         <!-- JavaScript Dependencies -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
