@@ -2,7 +2,7 @@
 
 # FORTNITE WEBSITE
 
-The purpose of this repo is to build a website based on a Wikipedia page on [Fortnite](https://en.wikipedia.org/wiki/Fortnite). The repository consists of simple HTML and CSS files to build web pages related to the topic. To assist in CSS, Bootstrap 5 is used.
+The task is to build a website with content on a Wikipedia page on [Fortnite](https://en.wikipedia.org/wiki/Fortnite). This repository consists of simple HTML and CSS files that build the website. To assist in CSS, Bootstrap 5 is used.
 For development purposes, Visual Studio Code is used.
 
 ## TEAM MEMBERS
