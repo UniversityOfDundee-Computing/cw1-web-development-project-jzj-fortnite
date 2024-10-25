@@ -31,7 +31,7 @@ For development purposes, Visual Studio Code is used.
 - [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
 - [CSS Code Formatter](https://www.freeformatter.com/css-beautifier.html)
 
-### LIST OF COMMITS
+## LIST OF COMMITS
 
 - To be added by each member of the team at the time of submission.
 
