@@ -1,66 +1,68 @@
 /* adding this to avoid footer overlay */
 main {
-    height:  auto !important;
+  height: auto !important;
 }
 
-.devHistoryMainSection{
-    background-color: rgb(42,9,95);
-    color: white; 
+.devHistoryMainSection {
+  background-color: rgb(42, 9, 95);
+  color: white;
 }
 
 html {
-    scroll-behavior:smooth;
-} 
-
-/* Adding styles to paragraph*/
-.col .paraContent{
-    background-color: #fbefff;
-    color: black;
-    padding: 20px;
-    border: 1px solid #ddb1ff;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
-.paraContent{
-    word-break: break-word;
-    overflow-wrap: break-word;
+/* Adding styles to paragraph*/
+.col .paraContent {
+  background-color: #fbefff;
+  color: black;
+  padding: 20px;
+  border: 1px solid #ddb1ff;
+}
+
+.paraContent {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Adding styles to See More button */
 .seeMoreBttn {
-    background-color: #ddb1ff; 
-    border-color: #3d02bd; 
-    color: black; 
-    padding: 12px 24px; 
-    font-size: 20px; 
-    font-weight: 10px;
-    border-radius: 8px; 
-    transition: all 0.3s ease; 
-  }
+  background-color: #ddb1ff;
+  border-color: #3d02bd;
+  color: black;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
 
-  .seeMoreBttn:hover {
-    background-color: #e25bff; 
-    border-color: #2a095f; 
-    color: white; 
-  }
+.seeMoreBttn:hover {
+  background-color: #e25bff;
+  border-color: #2a095f;
+  color: white;
+}
 
-  .seeMoreBttn:active {
-    background-color: #a266d0;
-    border-color: #19014c; 
-  }
+.seeMoreBttn:active {
+  background-color: #a266d0;
+  border-color: #19014c;
+}
 
-  .seeMoreBttn:focus {
-    box-shadow: 0 0 0 0.2rem rgba(42,9,95,0.5); 
-  }
+.seeMoreBttn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(42, 9, 95, 0.5);
+}
 
-  /* Adding effects to the link cards */
-  .dhLinkCards{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+/* Adding effects to the link cards */
+.dhLinkCards {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
 
-  .dhLinkCards:hover{
-    transform: scale(0.95); 
-    box-shadow: 0 8px 16px rgba(226,91,255,0.7); 
-  }
+.dhLinkCards:hover {
+  transform: scale(0.95);
+  box-shadow: 0 8px 16px rgba(226, 91, 255, 0.7);
+}
 
 /* Animations */
 .slide-in-left {
