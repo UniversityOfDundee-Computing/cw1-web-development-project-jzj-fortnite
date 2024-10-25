@@ -18,6 +18,7 @@ For development purposes, Visual-Studio-Code is used.
 - Understanding Semantic Tags [SemanticTags-W3school](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - How to handle responsiveness with media query [MediaQueries-CSS](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
 - How to animate elements via CSS [CSS_Animation](https://www.w3schools.com/css/css3_animations.asp)
+- How to control animation sequences with CSS Keyframes [CSS_Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 
 ## Design Layouts and Components
 

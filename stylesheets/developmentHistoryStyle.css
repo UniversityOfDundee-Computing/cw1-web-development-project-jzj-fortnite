@@ -61,3 +61,20 @@ html {
     transform: scale(0.95); 
     box-shadow: 0 8px 16px rgba(226,91,255,0.7); 
   }
+
+/* Animations */
+.slide-in-left {
+  opacity: 0;
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
