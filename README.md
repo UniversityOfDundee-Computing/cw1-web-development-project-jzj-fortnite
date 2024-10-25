@@ -34,6 +34,7 @@ For development purposes, Visual Studio Code is used.
 
 ## LIST OF COMMITS
 
-- To be added by each member of the team at the time of submission.
+- Jerin Chempakathinal Joseph [Commits Authored](https://github.com/UniversityOfDundee-Computing/cw1-web-development-project-jzj-fortnite/commits/main/?author=JerinCJoseph)
+
 
 
