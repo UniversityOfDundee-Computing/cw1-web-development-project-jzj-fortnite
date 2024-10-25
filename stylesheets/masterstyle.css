@@ -4,14 +4,14 @@
   padding: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Fortnite';
   src: url('/fonts/Fortnite.ttf') format('truetype');
 }
 
 body {
   font-family: 'Fortnite', sans-serif;
-}
+} */
 
 /* ---------------- Main Section Styles ------------------ */
 main {
