@@ -1,0 +1,345 @@
+/* ===========================================
+   Color Variables
+   =========================================== */
+   :root {
+    --deep-purple: #2a095f;
+    --bright-purple: #3d02bd;
+    --hot-pink: #e25bff;
+    --light-purple: #ddb1ff;
+    --very-light-purple: #fbefff;
+    --bright-yellow: #ffff24;
+}
+
+/* ===========================================
+   Main Container Styles
+   =========================================== */
+.awards-container {
+    /* Positioning and layout */
+    position: relative;
+    margin: 6rem auto 2rem; /* Top margin prevents navbar overlap */
+    padding: 2rem;
+    min-height: calc(100vh - 8rem); /* Ensures content fills viewport minus navbar */
+    
+    /* Visual styling */
+    background: rgba(42, 9, 95, 0.7);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--hot-pink);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(226, 91, 255, 0.3);
+}
+
+/* ===========================================
+   Header Styles
+   =========================================== */
+.display-4 {
+    /* Text styling */
+    color: var(--bright-yellow);
+    text-shadow: 0 0 15px var(--hot-pink),
+                 0 0 30px var(--hot-pink);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    /* Positioning */
+    position: relative;
+    margin-top: 1rem;
+}
+
+/* Decorative underline for header */
+.display-4::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 4px;
+    background: var(--hot-pink);
+    box-shadow: 0 0 10px var(--hot-pink);
+}
+
+/* ===========================================
+   Introduction Section Styles
+   =========================================== */
+.introduction {
+    /* Layout */
+    padding: 2rem;
+    margin: 2rem 0;
+    
+    /* Visual styling */
+    background: linear-gradient(145deg, 
+                rgba(61, 2, 189, 0.2), 
+                rgba(226, 91, 255, 0.1));
+    border: 2px solid var(--hot-pink);
+    border-radius: 15px;
+    box-shadow: inset 0 0 20px rgba(226, 91, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.intro-text {
+    color: var(--very-light-purple);
+    text-shadow: 0 0 5px rgba(251, 239, 255, 0.5);
+}
+
+/* ===========================================
+   Table Base Styles
+   =========================================== */
+.table {
+    background: rgba(42, 9, 95, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid var(--hot-pink);
+    box-shadow: 0 0 20px rgba(226, 91, 255, 0.2);
+}
+
+/* Table Header Styles */
+.table thead {
+    background: var(--bright-purple);
+    color: var(--bright-yellow);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.table thead th {
+    border-bottom: 2px solid var(--hot-pink);
+}
+
+/* Table Body Styles */
+.table tbody tr {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(226, 91, 255, 0.2);
+}
+
+/* Column-specific styling */
+.table tbody td:first-child {  /* Year column */
+    color: var(--bright-yellow);
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 0 0 5px rgba(255, 255, 36, 0.5);
+}
+
+.table tbody td:nth-child(2) {  /* Award column */
+    color: var(--very-light-purple);
+}
+
+.table tbody td:nth-child(3) {  /* Category column */
+    color: var(--light-purple);
+    font-weight: 500;
+}
+
+.table tbody td:nth-child(4) {  /* Result column */
+    font-weight: bold;
+}
+
+.table tbody td:last-child {  /* Reference column */
+    color: var(--hot-pink);
+}
+
+/* Table Row Hover Effects */
+.table tbody tr:hover {
+    background: rgba(61, 2, 189, 0.3) !important;
+    transform: scale(1.01);
+}
+
+.table tbody tr:hover td {
+    color: var(--very-light-purple);
+}
+
+.table tbody tr:hover td:first-child {
+    color: var(--bright-yellow);
+}
+
+/* Table Striping */
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(61, 2, 189, 0.15);
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: rgba(42, 9, 95, 0.8);
+}
+
+/* Table Container Fix */
+.table-responsive {
+    margin-bottom: 4rem; /* Prevents back button overlap */
+    position: relative;
+    z-index: 1;
+}
+
+/* ===========================================
+   Badge Styles
+   =========================================== */
+.badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.badge-won {
+    background: var(--bright-yellow);
+    color: var(--deep-purple);
+    border: 2px solid var(--hot-pink);
+    animation: glow 2s infinite alternate;
+}
+
+.badge-nominated {
+    background: var(--hot-pink);
+    color: var(--very-light-purple);
+    border: 2px solid var(--bright-yellow);
+}
+
+/* ===========================================
+   Link Styles
+   =========================================== */
+/* Award Links */
+.award-link {
+    color: var(--very-light-purple);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.award-link:hover {
+    color: var(--bright-yellow);
+    text-shadow: 0 0 10px var(--bright-yellow);
+    background: rgba(61, 2, 189, 0.3);
+}
+
+/* Reference Links */
+.ref-link {
+    color: var(--hot-pink);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ref-link:hover {
+    color: var(--bright-yellow);
+    text-shadow: 0 0 8px var(--bright-yellow);
+}
+
+/* Back to Home Button */
+.back-to-home {
+    /* Positioning */
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999; /* Appears above content but below navbar */
+    
+    /* Visual styling */
+    padding: 1rem 2rem;
+    background: var(--hot-pink);
+    color: var(--very-light-purple);
+    border: 3px solid var(--bright-yellow);
+    border-radius: 30px;
+    
+    /* Text styling */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+    /* Effects */
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(226, 91, 255, 0.5),
+                inset 0 0 10px rgba(255, 255, 36, 0.3);
+}
+
+.back-to-home:hover {
+    transform: scale(1.1);
+    background: var(--bright-yellow);
+    color: var(--deep-purple);
+    border-color: var(--hot-pink);
+    box-shadow: 0 0 30px var(--bright-yellow);
+}
+
+/* ===========================================
+   Animation Keyframes
+   =========================================== */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px var(--hot-pink),
+                   0 0 10px var(--hot-pink);
+    }
+    to {
+        box-shadow: 0 0 10px var(--hot-pink),
+                   0 0 20px var(--hot-pink),
+                   0 0 30px var(--hot-pink);
+    }
+}
+
+/* ===========================================
+   Mobile Navigation Fixes
+   =========================================== */
+@media (max-width: 991px) {
+    #navbarSupportedContent {
+        /* Positioning */
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        width: 100%;
+        
+        /* Visual styling */
+        background-color: var(--hot-pink);
+        padding: 1rem;
+        z-index: 1000;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-link:last-child {
+        border-bottom: none;
+    }
+}
+
+/* ===========================================
+   Responsive Design Adjustments
+   =========================================== */
+@media (max-width: 768px) {
+    /* Container adjustments */
+    .awards-container {
+        margin: 5rem 1rem 1rem;
+        padding: 1rem;
+        min-height: calc(100vh - 7rem);
+    }
+
+    /* Header adjustments */
+    .display-4 {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    /* Section adjustments */
+    .introduction {
+        padding: 1.5rem;
+    }
+
+    /* Table adjustments */
+    .table {
+        font-size: 0.9em;
+    }
+
+    .table tbody td:first-child {
+        font-size: 1em;
+    }
+
+    /* Badge adjustments */
+    .badge {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8em;
+    }
+
+    /* Back button adjustments */
+    .back-to-home {
+        bottom: 1rem;
+        right: 1rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9em;
+    }
+}
